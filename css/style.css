@@ -1,0 +1,226 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  li {
+      font-size: 18px;
+      font-weight: lighter;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white !important;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 300 !important;
+  }
+
+  h2 {
+      font-size: 30px !important;
+      font-weight: 300 !important;
+      text-align: center;
+  }
+
+  h3 {
+      letter-spacing: 3px;
+  }
+
+  .link {
+      color: blue !important;
+  }
+
+  .sectionHeading {
+      margin: 3rem;
+  }
+
+  /* navigation section */
+.nav {
+    background-color: transparent;
+    height: 100px;
+    width: 90%;
+    z-index: 10;
+    position: absolute;
+    margin: 10px;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 2rem;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 1.6;
+}
+
+.nav-item {
+    margin: 0px 25px;
+  }
+
+#selected {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* hero section */
+.hero-img {
+    background-image: url("../images/hero.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content {
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+
+
+/* Cards */
+.content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: left;
+    position: relative;
+  }
+  .cardContent {
+      margin: 50px;
+      position: absolute;
+      top: 50px;
+      color: white;
+  }
+  .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  
+  /* Content */
+  .sideAccent {
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  /* mailing list section */
+.mailingList {
+    background: url(../images/mailinglist.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  /* mailing list form */
+form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    color: white;
+    text-align: center;
+  }
+
+  .form-group {
+      margin-top: 50px !important;
+  }
+
+  .btn {
+      background-color: #ffa300 !important;
+      border: none !important;
+  }
+
+
+/* footer section */
+.footer {
+    background: #313131;
+    height: 90px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-item {
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+
